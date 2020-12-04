@@ -35,7 +35,8 @@ while True:
           print("Enter numbers only for Gross Income and Number of Dependents")
 
 income_Tax = float(taxable_Income) * tax_Rate
-print("Your Income Tax is: ",  "$" + str(income_Tax))
+#print("Your Income Tax is: ",  "$" + str(income_Tax))
+print(f"Your Income Tax is ${income_Tax} \n")
 
 
 
